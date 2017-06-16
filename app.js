@@ -5,12 +5,6 @@
 Ext.application({
     name: 'MyFleet',
 
-    requires: [
-        'Ext.MessageBox',
-        'Ext.Toolbar'
-    ],
+    extend: 'MyFleet.Application',
 
-    launch: function () {
-        Ext.Msg.alert('Hello Ext JS', 'Hello! Welcome to Ext JS.');
-    }
 });
