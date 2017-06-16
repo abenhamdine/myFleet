@@ -20,9 +20,10 @@
      * with "sencha workspace install". See "sencha help workspace install" for more information.
      *
      */
-    "frameworks": {        "ext651": {
-            "path":"ext651",
-            "version":"6.5.1.16"
+    "frameworks": {
+        "ext": {
+            "path": "ext",
+            "version": "6.5.1.16"
         }
 
     },
